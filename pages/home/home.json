@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "super-scroll-view":"../../components/scrollView/scrollView",
+    "profileCell":"../../components/profileCell/profileCell"
+
+  }
+}

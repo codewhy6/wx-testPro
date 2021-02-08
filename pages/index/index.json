@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "common-popup":"../../components/popup/popup",
+    "datePicker":"../../components/datePicker/datePicker",
+    "fieldInput":"../../components/fieldInput/fieldInput",
+    "areaPicker":"../../components/areaPicker/areaPicker",
+    "oneButton":"../../components/oneButton/oneButton",
+    "uploadImg":"../../components/uploadImg/uploadImg",
+    "delDai":"../../components/delDia/delDia",
+    "profileCell":"../../components/profileCell/profileCell"
+  }
+}

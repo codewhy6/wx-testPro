@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<!-- //json文件记得引入组件 -->
+<super-scroll-view bind:lower="mylower" height="{{height}}px" bind:pulldown="myOnPullDownRefresh">
+  <view wx:for="{{number}}" wx:key="index">你的内容{{index+1}}</view>
+</super-scroll-view>
+<view style="height:300px;">
+  <view style="width:50%;float:left;">1</view>
+  <view style="width:50%;float:left;background:#ccc;height:100%;">
+    <super-scroll-view bind:lower="mylower" height="{{height}}px" bind:pulldown="myOnPullDownRefresh">
+      <view wx:for="{{number}}" wx:key="index">你的内容{{index+1}}</view>
+    </super-scroll-view>
+  </view>
+</view>
+<super-scroll-view bind:lower="mylower" height="{{height}}px" bind:pulldown="myOnPullDownRefresh">
+  <view wx:for="{{30}}" wx:key="index">你的内容{{index+1}}</view>
+</super-scroll-view>
+
+
+<profileCell title="主页"  linkUrl="/pages/index/index" icon="/static/img/icon_material.png"></profileCell>
+
+
+<van-toast id="van-toast" />

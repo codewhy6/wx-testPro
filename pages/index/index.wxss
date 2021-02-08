@@ -1,0 +1,5 @@
+/**index.wxss**/
+.valCls {
+  text-align: left !important;
+  padding-left: 24rpx;
+}
